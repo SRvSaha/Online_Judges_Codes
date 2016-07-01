@@ -20,7 +20,7 @@
         i++;
     }
     for(int i = 0 ; i<size; i++){
-        answer = (answer * arr[i]) % MOD;
+        answer *= arr[i] % MOD;
     }
     printf("%ld\n",answer);
     return 0;
