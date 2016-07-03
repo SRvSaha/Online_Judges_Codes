@@ -2,7 +2,7 @@
  *  @author    : SRvSaha
  *  Filename    : petya_and_strings.c
  *  Timestamp : 10.52 AM  01-JUL-2016
- *  Desctiption : http://codeforces.com/problemset/problem/112/A
+ *  Description : http://codeforces.com/problemset/problem/112/A
  */
 
 #include <stdio.h>
