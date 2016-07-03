@@ -5,7 +5,7 @@
  * Description : http://codeforces.com/problemset/problem/96/A
  *
  */
-// Complexity : O(n)
+// Time Complexity : O(n) Space Complexity : O(1)
 #include <stdio.h>
 #include <string.h> // for strlen
 int main() {
