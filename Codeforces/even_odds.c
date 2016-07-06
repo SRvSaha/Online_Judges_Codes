@@ -5,6 +5,8 @@
  *  Description : http://codeforces.com/problemset/problem/318/A
  *
  */
+// The brute force method would have given TLE as there are 10^12 computations. So, used basic
+// mathematical logic of even odd to do that in O(1) time.
  #include <stdio.h>
  #define LL long long
  LL position(LL n, LL k)
