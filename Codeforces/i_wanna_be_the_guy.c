@@ -18,42 +18,6 @@
  {
     return arr[level] == 0 ? 1 : 0 ; // If the level is not visited Return 1 else 0
  }
- // int main()
- // {
- //    int n;
- //    scanf("%d",&n);
- //    int bits[100];
- //    int p1_level[100];
- //    int p2_level[100];
- //    set(bits,n);
- //    int level,p1_level_size,p2_level_size;
- //    scanf(" %d",&p1_level_size);
- //    for(int i = 0; i < p1_level_size ; i++){
- //        scanf(" %d",&level);
- //        p1_level[i] = level;
- //    }
- //    scanf(" %d",&p2_level_size);
- //    for(int i = 0; i < p2_level_size ; i++){
- //        scanf(" %d",&level);
- //        p2_level[i] = level;
- //    }
- //    for(int i = 0; i < p1_level_size ; i++){
- //        if(level_not_visited(bits,p1_level[i]))
- //            bits[p1_level[i]] = 1;
- //    }
- //    for(int i = 0; i < p2_level_size ; i++){
- //        if(level_not_visited(bits,p2_level[i]))
- //            bits[p2_level[i]] = 1;
- //    }
- //    for(int i = 1; i <= n; i++){
- //        if(bits[i] == 0){
- //            printf("Oh, my keyboard!\n");
- //            return 0;
- //        }
- //    }
- //    printf("I become the guy.\n");
- //    return 0;
- // }
  int main()
  {
     int n;
