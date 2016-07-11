@@ -65,12 +65,12 @@ char* correct_words(char* correct_word,char* word)
 int main()
 {
     char word[101];
-    char* correct_word = (char*)malloc(101); // Dynamically allocating else function will return a dangling pointer. This is now in heap section
+    char correct_word [101]; // Statically allocated memory
     char* result = NULL;
     scanf("%s",word);
     // correct_word(word);
     result = correct_words(correct_word,word);
     printf("%s\n",result);
-    free(correct_word);// The returned string will get deallocated here.
+    //free(correct_word);// The returned string will get deallocated here.
     return 0;
 }
