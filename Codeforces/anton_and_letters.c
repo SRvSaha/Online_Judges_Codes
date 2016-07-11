@@ -15,11 +15,11 @@ void set(int arr[],int size)
 int main()
 {
     int bit[26];
-    set(bit,26);
+    set(bit,26); // Like MEMSET in C++, to set all the bits to zero
     char ch;
     int count = 0;
     char str[1001];
-    scanf("%[^\n]s",str);
+    scanf("%[^\n]s",str); // Scan till \n is entered . That is until a new line is encountered.
     for(int i = 1; str[i] != '}'; i++){
         ch = str[i];
         if((ch >= 97 && ch < 123) && bit[ch-97] == 0)
