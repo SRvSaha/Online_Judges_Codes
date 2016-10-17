@@ -2,8 +2,8 @@
 *   @author      : SRvSaha
 *   Filename     : sock_merchant.cpp
 *   Timestamp    : 01:34 18-October-2016 (Tuesday)
-*   Description  :
-*   Link         :
+*   Description  : Use of Map (Unordered Map) , Iterator STL
+*   Link         : https://www.hackerrank.com/challenges/sock-merchant
 *
 */
 #include <iostream>
