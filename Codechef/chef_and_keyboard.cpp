@@ -2,8 +2,8 @@
 *   @author      : SRvSaha
 *   Filename     : chef_key.cpp
 *   Timestamp    : 14:15 17-October-2016 (Monday)
-*   Description  : Codechef Long OCT'16
-*   Link         : Simple Factorization || O(n)
+*   Description  : Codechef Long OCT'16 || Simple Factorization || O(c) Time
+*   Link         : https://www.codechef.com/OCT16/problems/CHEFKEY
 *
 */
 #include <stdio.h>
