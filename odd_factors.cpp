@@ -15,7 +15,11 @@ int main(){
     int low_ = sqrt(low);
     int high_ = sqrt(high);
     for(int i = low_; i <= high_; i++){
-        if(i*i >= low && i*i <= high)
+        if(i*i >= low && i*i <= high){
             cout<<i*i<<" ";
+            count++;
+        }
     }
+    cout<<endl<<count<<endl;
+    return 0;
 }
